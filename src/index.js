@@ -173,7 +173,9 @@ class SmoothPinCodeInput extends Component {
             flex: 1,
             opacity: 0,
             textAlign: 'center',
-          }} />
+          }}
+          {...this.props}
+          />
       </Animatable.View>
     );
   }
